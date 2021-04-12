@@ -10,3 +10,8 @@ A static page of the Spotify page before a user signs up or logs in. This was fo
 *[Favicon Converter](https://favicon.io/favicon-converter/)
 
 *[Spotify](https://www.spotify.com/us/)
+
+# Live Output
+
+* Here is the live output link. Click on the link below to see the Spotify clone.
+[live output](https://jennym0715.github.io/Spotify_Clone.io/)
