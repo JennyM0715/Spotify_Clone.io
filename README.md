@@ -14,4 +14,4 @@ A static page of the Spotify page before a user signs up or logs in. This was fo
 # Live Output
 
 * Here is the live output link. Click on the link below to see the Spotify clone.
-[live output](https://jennym0715.github.io/Spotify_Clone.io/)
+*[live output](https://jennym0715.github.io/Spotify_Clone.io/)
