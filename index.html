@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music for everyone - Spotify</title>
+
+    <link rel="icon" href="/images/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="main.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header role="banner">
+      <div class="header-container">
+        <div class="header-logo">
+          <img src="images/spotify-logo.svg" alt="spotify_logo"/>
+        </div>
+        <!-----------------This is the menu that will be shown on mobile devices------------>
+        <nav class="nav-mobile">
+            <!-- Hamburger menu -->
+            <input type="checkbox" class="toggler" />
+            <div class="hamburger-menu"><div></div></div>
+            <div class="menu">
+              <div class="background-overlay"></div>
+              <div class="menu-overlay">
+                <ul>
+                  <li><a href="#">Premium</a></li>
+                  <li><a href="#">Help</a></li>
+                  <li><a href="#">Download</a></li>
+                  <li role="separator"></li>
+                  <li><a href="#">Account</a></li>
+                  <li><a href="#">Log out</a></li>
+                </ul>
+                <div class="menu-overlay-logo">
+                  <img src="images/spotify-logo.svg" alt="spotify logo" />
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!---------------------This is the menu that will be shown on Desktop----------------------------------->
+        <nav class="nav-desktop">
+          <!--------naivagtion menu ------------->
+          <ul>
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Download</a></li>
+            <li role="separator"></li>
+          </ul>
+          <!-- Sign up and log in -->
+         <ul>
+            <li style="width: 80px"><a href="#">Sign Up</a></li>
+            <li style="transform: none;
+            background: none;
+            height: auto;
+            width: 80px;"><a href="#">Log In</a></li>
+        </ul>
+        </nav>
+      </div>
+    </header>
+    <!-------------------SPOTIFY BANNER------------------------------ -->
+    <section class="spotify_banner">
+      <div class="spotify_container">
+        <div class="spotify_content">
+          <h1 class="spotify_title">Listening is everything.</h1>
+          <p style="font-size: 18px; color: var(--green2); line-height: 1.5;">Millions of songs and podcasts. No credit card needed.</p>
+          <button class="spotify_button">GET SPOTIFY FREE</button>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------START OF FOOTER------------------------------------------>
+    <footer role="contentinfo">
+      <nav class="footer-nav">
+        <!-----SPOTIFY LOGO AT FOOTER--LEFT SIDE LINKS----->
+        <div class="logo-footer">
+          <a href="#"><img src="images/spotify-logo.svg" alt="Spotify logo"/></a>
+        </div>
+        <!-----FOOTER: MORE INFORMATION/CONTENTINFO LINKS----->
+        <div class="top-links">
+          <div class="company-links">
+            <ul>
+              <li>COMPANY</li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">For the Record</a></li>
+            </ul>
+          </div>
+          <div class="communities-links">
+            <ul>
+              <li>COMMUNITIES</li>
+              <li><a href="#">For artists</a></li>
+              <li><a href="#">Developers</a></li>
+              <li><a href="#">Advertising</a></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">Vendors</a></li>
+            </ul>
+          </div>
+          <div class="useful-links">
+            <ul>
+              <li>USEFUL LINKS</li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Web Player</a></li>
+              <li><a href="#">Free Mobile App</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-----SOCIAL MEDIA ICONS LINKS---RIGHT SIDE OF FOOTER----->
+        <div class="social-icons">
+          <ul>
+            <li>
+              <a href="#"><img src="images/instagram-icon.svg" alt="instagram_icon"/></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/twitter-icon.svg" alt="twitter_icon"/></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/facebook-icon.svg" alt="facebook_icon" /></a>
+            </li>
+          </ul>
+        </div>
+        <!-----COUNTRY LINKS----->
+        <div class="country">
+          <a href="#"><span>USA</span><img src="images/us.svg" alt="country_logo" /></a>
+        </div>
+        <!-----BOTTOM LINKS----->
+        <div class="bottom-links">
+          <ul>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Privacy Center</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">About Ads</a></li>
+            <li><a href="#">Additional CA Privacy Disclosures</a></li>
+            <li><a href="#">Spotify Clone--educational purpose</a></li>
+          </ul>
+          <span>&copy; 2021 Spotify AB</span>
+        </div>
+      </nav>
+    </footer>
+    <!-- START OF FOOTER -->
+  </body>
+</html>
